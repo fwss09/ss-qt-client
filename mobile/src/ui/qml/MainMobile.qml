@@ -12,7 +12,7 @@ ApplicationWindow {
     minimumWidth: 340
     minimumHeight: 600
     visible: true
-    title: "Shadowsocks Mobile"
+    title: "skugg Mobile"
     color: "#080808"
 
     FontLoader { id: fontSerif; source: "qrc:/src/ui/assets/fonts/InstrumentSerif-Regular.ttf" }
@@ -46,7 +46,7 @@ ApplicationWindow {
                 }
 
                 Text {
-                    text: "SHADOWSOCKS"
+                    text: "SKUGG"
                     font.family: Theme.fontHeading
                     font.pixelSize: 18
                     color: "#FFFFFF"

@@ -12,7 +12,7 @@ ApplicationWindow {
     minimumWidth: 840
     minimumHeight: 560
     visible: true
-    title: "Shadowsocks VPN"
+    title: "skugg"
     color: "#080808"
 
     FontLoader { id: fontSerif; source: "../assets/fonts/InstrumentSerif-Regular.ttf" }
@@ -38,19 +38,19 @@ ApplicationWindow {
                 spacing: 12
 
                 RowLayout {
-                    spacing: 12
+                    spacing: 14
                     Rectangle {
-                        width: 32
-                        height: 32
+                        width: 36
+                        height: 36
                         radius: 0
                         color: "#CCFF00"
                     }
 
                     Column {
-                        spacing: 1
+                        spacing: 0
                         Text {
-                            text: "Shadowsocks"
-                            font.pixelSize: 21
+                            text: "skugg"
+                            font.pixelSize: 32
                             font.family: Theme.fontHeading
                             color: "#FFFFFF"
                         }

@@ -99,8 +99,8 @@ private:
 }
 
 int main(int argc, char *argv[]) {
-    QApplication::setOrganizationName("ShadowsocksQt");
-    QApplication::setApplicationName("ssclient");
+    QApplication::setOrganizationName("skugg");
+    QApplication::setApplicationName("skugg");
     QApplication::setApplicationVersion("1.0.0");
 
     QApplication app(argc, argv);
@@ -154,7 +154,7 @@ int main(int argc, char *argv[]) {
     if (QSystemTrayIcon::isSystemTrayAvailable()) {
         auto *trayIcon = new QSystemTrayIcon(&app);
         trayIcon->setIcon(app.style()->standardIcon(QStyle::SP_DriveNetIcon));
-        trayIcon->setToolTip("Shadowsocks Native Client");
+        trayIcon->setToolTip("skugg");
 
         auto *trayMenu = new QMenu();
         auto *toggleAction = trayMenu->addAction("Toggle Connect");
