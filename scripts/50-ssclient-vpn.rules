@@ -1,0 +1,9 @@
+/* Allow running ssclient VPN route script without password */
+polkit.addRule(function(action, subject) {
+    if (action.id == "org.freedesktop.policykit.exec" &&
+        (action.lookup("program") == "/home/fwss/AGY/ssclient/scripts/vpn-route.sh" ||
+         action.lookup("program") == "/usr/local/bin/ss-vpn-route.sh") &&
+        (subject.isInGroup("wheel") || subject.user == "fwss")) {
+        return polkit.Result.YES;
+    }
+});

@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/ui/qml/qmldir</file>
+        <file>src/ui/qml/MainMobile.qml</file>
+        <file>src/ui/qml/Theme.qml</file>
+        <file>src/ui/qml/components/ModernButton.qml</file>
+        <file>src/ui/qml/components/ModernCard.qml</file>
+        <file>src/ui/qml/components/SpeedGraph.qml</file>
+        <file>src/ui/qml/components/StatusBadge.qml</file>
+        <file>src/ui/qml/components/TacticalGlobe.qml</file>
+        <file>src/ui/qml/components/WorldData.js</file>
+        <file>src/ui/qml/components/BottomNavBar.qml</file>
+        <file>src/ui/qml/views/MobileDashboardView.qml</file>
+        <file>src/ui/qml/views/MobileServersView.qml</file>
+        <file>src/ui/qml/views/MobileSettingsView.qml</file>
+        <file>src/ui/qml/views/MobileLogsView.qml</file>
+        <file>src/ui/qml/dialogs/AddServerDialog.qml</file>
+        <file>src/ui/qml/dialogs/ImportUrlDialog.qml</file>
+        <file>src/ui/assets/fonts/InstrumentSerif-Regular.ttf</file>
+        <file>src/ui/assets/fonts/InstrumentSerif-Italic.ttf</file>
+        <file>src/ui/assets/fonts/InstrumentSans-Variable.ttf</file>
+    </qresource>
+</RCC>
