@@ -1,6 +1,11 @@
 # Build artifacts & binaries
 bin/
 build/
+*.tar.gz
+skugg-*/
+AppDir_Local/
+*.AppImage
+*.png
 *.o
 *.a
 *.so

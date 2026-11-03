@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=skugg
+GenericName=Shadowsocks Client
+Comment=Modern lightweight Shadowsocks client
+Exec=ssclient
+Icon=skugg
+Terminal=false
+Categories=Network;Security;
+Keywords=shadowsocks;vpn;proxy;skugg;
